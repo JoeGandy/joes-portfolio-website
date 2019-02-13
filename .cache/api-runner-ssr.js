@@ -2,6 +2,9 @@ var plugins = [{
       plugin: require('/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Joes-Porfolio-Website","short_name":"Joes-Webste","start_url":"/","background_color":"#e4e7eb","theme_color":"#2200ff","display":"standalone","icon":"static/favicon.png"},
     },{
+      plugin: require('/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      options: {"plugins":[],"logo":"./static/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
+    },{
       plugin: require('/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]

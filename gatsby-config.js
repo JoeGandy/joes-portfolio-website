@@ -6,6 +6,18 @@ module.exports = {
 	},
     plugins: [
 		{
+			resolve: `gatsby-plugin-netlify`,
+			options: {
+				headers: {},
+				allPageHeaders: [],
+				mergeSecurityHeaders: true,
+				mergeLinkHeaders: true,
+				mergeCachingHeaders: true,
+				transformHeaders: (headers, path) => headers,
+				generateMatchPathRewrites: true,
+			},
+		},
+		{
 		resolve: `gatsby-plugin-netlify-headers`,
 			options: {
 				headers: {},
@@ -28,6 +40,24 @@ module.exports = {
 					display: "standalone",
 					icon: "static/favicon.png"
 			},
+	    },
+	    {
+	    resolve: `gatsby-plugin-favicon`,
+			options: {
+				logo: "./static/favicon.png",
+				injectHTML: true,
+				icons: {
+					android: true,
+					appleIcon: true,
+					appleStartup: true,
+					coast: false,
+					favicons: true,
+					firefox: true,
+					twitter: false,
+					yandex: false,
+					windows: false
+				}
+			}
 	    },
         `gatsby-plugin-sass`,
         `gatsby-plugin-offline`,

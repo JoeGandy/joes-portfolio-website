@@ -222,6 +222,100 @@
         "owner": "internal-data-bridge"
       }
     },
+    "70aa8c30-916c-5a81-93d7-7336d6c7383b": {
+      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
+      "id": "70aa8c30-916c-5a81-93d7-7336d6c7383b",
+      "name": "gatsby-plugin-netlify",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "headers": {},
+        "allPageHeaders": [],
+        "mergeSecurityHeaders": true,
+        "mergeLinkHeaders": true,
+        "mergeCachingHeaders": true,
+        "generateMatchPathRewrites": true
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "kebab-hash",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^3.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3f2061a11d43e7df00deb62802f82c80",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "43090340-bf01-5ece-b25b-db771c309560": {
       "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
       "id": "43090340-bf01-5ece-b25b-db771c309560",
@@ -383,6 +477,86 @@
       "children": [],
       "internal": {
         "contentDigest": "3442e1d3720287cc6acad94f47767e68",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "52012dc6-5780-5ff0-8fad-2d37635f548a": {
+      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-favicon",
+      "id": "52012dc6-5780-5ff0-8fad-2d37635f548a",
+      "name": "gatsby-plugin-favicon",
+      "version": "3.1.5",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./static/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "3.1.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "^0.4.6"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          }
+        ],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ebaa21b511dfc1ee2f0e61bcee9173cc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1144,7 +1318,7 @@
       "resolve": "/home/joe/projects/joes-portfolio-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "ebed18bf3d122fcce58cb15005eb3dc6",
+      "version": "c71250d6d68688ffce4d2df7eba7a92a",
       "pluginOptions": {
         "plugins": []
       },
@@ -1165,6 +1339,10 @@
           {
             "name": "gatsby-image",
             "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^3.1.5"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -1240,7 +1418,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ee9c64c7b199ae7497b0dea99e00a9f8",
+        "contentDigest": "d7760b3afd7bfe010adc72346f09d4cf",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1354,12 +1532,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-13T20:27:38.446Z",
+      "buildTime": "2019-02-13T20:41:41.067Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3631d349cd65fc8afa519aad9ee95883",
+        "contentDigest": "54de329eaa15b8cbd260101bada832ac",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1427,7 +1605,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a277c59cd93903cdb394a5da749456d7"
+    "PLUGINS_HASH": "185678f0d41778da40552ec3388d41a3"
   },
   "componentDataDependencies": {
     "nodes": {},
