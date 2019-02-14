@@ -69,5 +69,10 @@ yarn-error.log
 /vcs.xml
 /.idea
 /.idea/*
+
+# Lock files
 /package-lock.json
 /yarn.lock
+
+#Gatsby cache
+/.cache
