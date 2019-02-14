@@ -222,20 +222,14 @@
         "owner": "internal-data-bridge"
       }
     },
-    "4145ed11-1711-5e25-8498-12a4ec21ed1d": {
+    "9a69bf6e-2e35-5f68-9dcf-076a9cd388c2": {
       "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-google-analytics",
-      "id": "4145ed11-1711-5e25-8498-12a4ec21ed1d",
+      "id": "9a69bf6e-2e35-5f68-9dcf-076a9cd388c2",
       "name": "gatsby-plugin-google-analytics",
       "version": "2.0.13",
       "pluginOptions": {
         "plugins": [],
-        "trackingId": "UA-49984946-7",
-        "head": false,
-        "anonymize": true,
-        "respectDNT": true,
-        "sampleRate": 5,
-        "siteSpeedSampleRate": 10,
-        "cookieDomain": "www.joegandy.co.uk"
+        "trackingId": "UA-49984946-7"
       },
       "nodeAPIs": [],
       "browserAPIs": [
@@ -296,7 +290,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "099ae8150856b3ff8d0074a87004a255",
+        "contentDigest": "bea895ba7b071d7f2d31e1199a463002",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1397,7 +1391,7 @@
       "resolve": "/home/joe/misc/joes-portfolio-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "b98d1281e0ebed5ecdc8a43c547ee5b2",
+      "version": "f7e61affd2503c83237562196e374711",
       "pluginOptions": {
         "plugins": []
       },
@@ -1501,7 +1495,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "292096e78024210ab3b0350e09299cf1",
+        "contentDigest": "378ce1e6ae4375cc8ba44bf208e3f417",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1615,12 +1609,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-14T08:53:18.306Z",
+      "buildTime": "2019-02-14T09:33:52.376Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e9208f82a88933809ed391458ba1288f",
+        "contentDigest": "fa05bd06a141dc5033790aaaa40eb452",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1688,7 +1682,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "97e0eb5e7cc8b98bd7d22566a5b34696"
+    "PLUGINS_HASH": "59c4a12b87bd532ee8a4669032a1c6fb"
   },
   "componentDataDependencies": {
     "nodes": {},

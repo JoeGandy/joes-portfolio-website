@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-49984946-7","head":false,"anonymize":true,"respectDNT":true,"sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"www.joegandy.co.uk"},
+      options: {"plugins":[],"trackingId":"UA-49984946-7"},
     },{
       plugin: require('/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Joes-Porfolio-Website","short_name":"Joes-Webste","start_url":"/","background_color":"#e4e7eb","theme_color":"#2200ff","display":"standalone","icon":"static/favicon.png"},
