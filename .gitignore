@@ -69,3 +69,5 @@ yarn-error.log
 /vcs.xml
 /.idea
 /.idea/*
+/package-lock.json
+/yarn.lock
