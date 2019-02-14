@@ -12,7 +12,7 @@
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -24,7 +24,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -41,13 +41,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2b7a124f6aca2c3c092f18982cc8f40e",
+        "contentDigest": "2cb8916a2ba398a740b341c729cce813",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -59,7 +59,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -76,13 +76,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c93bb4040e4d3949295333b8bf00ab68",
+        "contentDigest": "21fb9e44aa9c3db34cd20ae522393cdb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -95,7 +95,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -112,13 +112,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d6096bf50e3d174049c900679c045146",
+        "contentDigest": "13d61479dcf17faeda5b2c8e85f22d64",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -130,7 +130,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -147,13 +147,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "35ff588a6c57f894b3598593b7823082",
+        "contentDigest": "b956d0e9b73a1ba880ebc6ed11d957a3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -165,7 +165,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -182,13 +182,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f62ccb8e383bb4e40a5230a0a35b3f57",
+        "contentDigest": "280f6e61da0ebc22341f50cf5775d624",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
       "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
@@ -200,7 +200,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
         "name": "webpack-theme-component-shadowing",
         "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
@@ -217,13 +217,92 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "15ec4c80e88252718618e941cf93bb2c",
+        "contentDigest": "31eb3549995a243b32f699f363eaa84c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4145ed11-1711-5e25-8498-12a4ec21ed1d": {
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-google-analytics",
+      "id": "4145ed11-1711-5e25-8498-12a4ec21ed1d",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-49984946-7",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "sampleRate": 5,
+        "siteSpeedSampleRate": 10,
+        "cookieDomain": "www.joegandy.co.uk"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "099ae8150856b3ff8d0074a87004a255",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "70aa8c30-916c-5a81-93d7-7336d6c7383b": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
       "id": "70aa8c30-916c-5a81-93d7-7336d6c7383b",
       "name": "gatsby-plugin-netlify",
       "version": "2.0.10",
@@ -242,7 +321,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
       "packageJson": {
         "name": "gatsby-plugin-netlify",
         "description": "A Gatsby plugin which generates a _headers file for netlify",
@@ -311,13 +390,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3f2061a11d43e7df00deb62802f82c80",
+        "contentDigest": "1f4618bd54e28b7f264c5c6e91c6bdbb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "43090340-bf01-5ece-b25b-db771c309560": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
       "id": "43090340-bf01-5ece-b25b-db771c309560",
       "name": "gatsby-plugin-netlify-headers",
       "version": "1.0.1",
@@ -333,7 +412,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
       "packageJson": {
         "name": "gatsby-plugin-netlify-headers",
         "description": "A Gatsby plugin which generates a _headers file for netlify",
@@ -385,13 +464,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9bf6bf3beedf32ac80e1167699680883",
+        "contentDigest": "64d1d725f86b1a5e46361776764b1cb8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "8746553e-bb84-5065-b510-0198ea9168f1": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-manifest",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-manifest",
       "id": "8746553e-bb84-5065-b510-0198ea9168f1",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.17",
@@ -412,7 +491,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
@@ -476,13 +555,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3442e1d3720287cc6acad94f47767e68",
+        "contentDigest": "3c0f5fa433b39b095f36b27383993fc5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "52012dc6-5780-5ff0-8fad-2d37635f548a": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-favicon",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-favicon",
       "id": "52012dc6-5780-5ff0-8fad-2d37635f548a",
       "name": "gatsby-plugin-favicon",
       "version": "3.1.5",
@@ -509,7 +588,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-favicon",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-favicon",
       "packageJson": {
         "name": "gatsby-plugin-favicon",
         "description": "Gatsby plugin to add favicon for all configurations",
@@ -556,13 +635,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ebaa21b511dfc1ee2f0e61bcee9173cc",
+        "contentDigest": "0ec13665463de98eb1b5f87381a1ae89",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-sass",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-sass",
       "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
       "name": "gatsby-plugin-sass",
       "version": "2.0.10",
@@ -574,7 +653,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -635,13 +714,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8ed1bc6baddd46625932be851b99a664",
+        "contentDigest": "70ccd51e8cd9b0b33ee86f62027f6ed0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-offline",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-offline",
       "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "name": "gatsby-plugin-offline",
       "version": "2.0.23",
@@ -658,7 +737,7 @@
         "onPostPrefetchPathname"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-offline",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
@@ -732,13 +811,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4697842cdfe9072be22c10dcd97172e5",
+        "contentDigest": "5f0ad6d50d91ed1e42a839a64d7a1559",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-transformer-sharp",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
       "version": "2.1.13",
@@ -752,7 +831,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
@@ -828,13 +907,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9b45119794f86a75cf34fdcb863a8d57",
+        "contentDigest": "237f7c1fb2463f9a411c7539019a4813",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84d6154d-4241-556c-a679-cc8339cac100": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-sharp",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
       "version": "2.0.20",
@@ -846,7 +925,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -959,13 +1038,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8a7cf863fc5783d8c554bea01312d103",
+        "contentDigest": "8c6aeb8d519a639dc3cac26775542843",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "54e3ea36-236a-5532-9628-10debfd8525c": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
       "id": "54e3ea36-236a-5532-9628-10debfd8525c",
       "name": "gatsby-plugin-netlify",
       "version": "2.0.10",
@@ -978,7 +1057,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify",
       "packageJson": {
         "name": "gatsby-plugin-netlify",
         "description": "A Gatsby plugin which generates a _headers file for netlify",
@@ -1047,13 +1126,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1e09902acebc1f1bbd67e842333b6a8f",
+        "contentDigest": "a6f73adc8e8f40b284fccab01e282f7d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.6",
@@ -1065,7 +1144,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -1132,13 +1211,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "36dbe58f955d73afbc073adc5d14404a",
+        "contentDigest": "8c88fafbc57bf727d0c4ec6a936264d5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "4c512a48-5026-507c-8e09-565ed3d548e7": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
       "id": "4c512a48-5026-507c-8e09-565ed3d548e7",
       "name": "gatsby-plugin-netlify-headers",
       "version": "1.0.1",
@@ -1148,7 +1227,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-netlify-headers",
       "packageJson": {
         "name": "gatsby-plugin-netlify-headers",
         "description": "A Gatsby plugin which generates a _headers file for netlify",
@@ -1200,13 +1279,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1495781356d45a352d974e6fea227906",
+        "contentDigest": "0cbb1850bf379fdc5cc6b4301068c054",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "51aa9449-8060-5d45-9ec4-84f6dd07e26a": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-robots-txt",
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-robots-txt",
       "id": "51aa9449-8060-5d45-9ec4-84f6dd07e26a",
       "name": "gatsby-plugin-robots-txt",
       "version": "1.4.0",
@@ -1218,7 +1297,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-robots-txt",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-robots-txt",
       "packageJson": {
         "name": "gatsby-plugin-robots-txt",
         "description": "Gatsby plugin that automatically creates robots.txt for your site",
@@ -1309,23 +1388,23 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c8a405f83376f4357f04141c581f388d",
+        "contentDigest": "618b8496aea139912b8ee816e4c29cb8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/home/joe/projects/joes-portfolio-website",
+      "resolve": "/home/joe/misc/joes-portfolio-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "c71250d6d68688ffce4d2df7eba7a92a",
+      "version": "b98d1281e0ebed5ecdc8a43c547ee5b2",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website",
       "packageJson": {
         "name": "joes-porfolio-website",
         "description": "Joes person portfolio build on gatsby and react",
@@ -1343,6 +1422,10 @@
           {
             "name": "gatsby-plugin-favicon",
             "version": "^3.1.5"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.13"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -1418,19 +1501,19 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d7760b3afd7bfe010adc72346f09d4cf",
+        "contentDigest": "292096e78024210ab3b0350e09299cf1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "3506af54-bd70-5f9b-91e9-3d984aea4969": {
-      "resolve": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-page-creator",
-      "id": "3506af54-bd70-5f9b-91e9-3d984aea4969",
+    "5f3de453-a446-5e64-8646-83be118b0041": {
+      "resolve": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-page-creator",
+      "id": "5f3de453-a446-5e64-8646-83be118b0041",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
-        "path": "/home/joe/projects/joes-portfolio-website/src/pages",
+        "path": "/home/joe/misc/joes-portfolio-website/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -1438,7 +1521,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -1521,7 +1604,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "badc9ec002d5dc8e73d98c516358ee5b",
+        "contentDigest": "a570d870cb0358bdb15ac1aab54b7da3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1532,12 +1615,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-13T20:41:41.067Z",
+      "buildTime": "2019-02-14T08:53:18.306Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "54de329eaa15b8cbd260101bada832ac",
+        "contentDigest": "e9208f82a88933809ed391458ba1288f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1546,18 +1629,18 @@
       "jsonName": "offline-plugin-app-shell-fallback-a30",
       "internalComponentName": "ComponentOfflinePluginAppShellFallback",
       "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "component": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js",
       "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
       "context": {},
       "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "componentPath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentPath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js",
       "id": "SitePage /offline-plugin-app-shell-fallback/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b04a4d7028317189aca6355329e8d542",
+        "contentDigest": "3af181779aeb2bd1173ebff25dc98679",
         "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
         "owner": "internal-data-bridge"
       }
@@ -1566,19 +1649,19 @@
       "jsonName": "contact-26a",
       "internalComponentName": "ComponentContact",
       "path": "/contact/",
-      "component": "/home/joe/projects/joes-portfolio-website/src/pages/contact.js",
+      "component": "/home/joe/misc/joes-portfolio-website/src/pages/contact.js",
       "componentChunkName": "component---src-pages-contact-js",
       "context": {},
-      "pluginCreator___NODE": "3506af54-bd70-5f9b-91e9-3d984aea4969",
-      "pluginCreatorId": "3506af54-bd70-5f9b-91e9-3d984aea4969",
-      "componentPath": "/home/joe/projects/joes-portfolio-website/src/pages/contact.js",
+      "pluginCreator___NODE": "5f3de453-a446-5e64-8646-83be118b0041",
+      "pluginCreatorId": "5f3de453-a446-5e64-8646-83be118b0041",
+      "componentPath": "/home/joe/misc/joes-portfolio-website/src/pages/contact.js",
       "id": "SitePage /contact/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "64f9f797bba64a51da7d131c44394994",
-        "description": "3506af54-bd70-5f9b-91e9-3d984aea4969",
+        "contentDigest": "6d283644618dffe195cecdef381d83d2",
+        "description": "5f3de453-a446-5e64-8646-83be118b0041",
         "owner": "internal-data-bridge"
       }
     },
@@ -1586,26 +1669,26 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/home/joe/projects/joes-portfolio-website/src/pages/index.js",
+      "component": "/home/joe/misc/joes-portfolio-website/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "3506af54-bd70-5f9b-91e9-3d984aea4969",
-      "pluginCreatorId": "3506af54-bd70-5f9b-91e9-3d984aea4969",
-      "componentPath": "/home/joe/projects/joes-portfolio-website/src/pages/index.js",
+      "pluginCreator___NODE": "5f3de453-a446-5e64-8646-83be118b0041",
+      "pluginCreatorId": "5f3de453-a446-5e64-8646-83be118b0041",
+      "componentPath": "/home/joe/misc/joes-portfolio-website/src/pages/index.js",
       "id": "SitePage /",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "52cf342cc18f3f8d1ef26750a6a82e0a",
-        "description": "3506af54-bd70-5f9b-91e9-3d984aea4969",
+        "contentDigest": "4410f199e6b17c06c8c3004ab2ed5fa2",
+        "description": "5f3de453-a446-5e64-8646-83be118b0041",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "185678f0d41778da40552ec3388d41a3"
+    "PLUGINS_HASH": "97e0eb5e7cc8b98bd7d22566a5b34696"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -1617,17 +1700,17 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/home/joe/projects/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/home/joe/misc/joes-portfolio-website/node_modules/gatsby-plugin-offline/app-shell.js"
     },
-    "/home/joe/projects/joes-portfolio-website/src/pages/contact.js": {
+    "/home/joe/misc/joes-portfolio-website/src/pages/contact.js": {
       "query": "",
-      "componentPath": "/home/joe/projects/joes-portfolio-website/src/pages/contact.js"
+      "componentPath": "/home/joe/misc/joes-portfolio-website/src/pages/contact.js"
     },
-    "/home/joe/projects/joes-portfolio-website/src/pages/index.js": {
+    "/home/joe/misc/joes-portfolio-website/src/pages/index.js": {
       "query": "",
-      "componentPath": "/home/joe/projects/joes-portfolio-website/src/pages/index.js"
+      "componentPath": "/home/joe/misc/joes-portfolio-website/src/pages/index.js"
     }
   },
   "staticQueryComponents": {}

@@ -6,6 +6,18 @@ module.exports = {
 	},
     plugins: [
 		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				trackingId: "UA-49984946-7",
+				head: false,
+				anonymize: true,
+				respectDNT: true,
+				sampleRate: 5,
+				siteSpeedSampleRate: 10,
+				cookieDomain: "www.joegandy.co.uk",
+			},
+		},
+		{
 			resolve: `gatsby-plugin-netlify`,
 			options: {
 				headers: {},
