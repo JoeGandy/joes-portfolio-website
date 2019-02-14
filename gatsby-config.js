@@ -65,6 +65,13 @@ module.exports = {
 				}
 			}
 	    },
+		{
+			resolve: `gatsby-plugin-sharp`,
+			options: {
+				useMozJpeg: true,
+				stripMetadata: true,
+			},
+		},
         `gatsby-plugin-sass`,
         `gatsby-plugin-offline`,
         `gatsby-transformer-sharp`,
