@@ -63,3 +63,9 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Php storm
+/workspace.xml
+/vcs.xml
+/.idea
+/.idea/*
