@@ -8,8 +8,17 @@
   Joe's Portolio website
 </h1>
 
-Built off the initial gatsby hello world starter, https://www.gatsbyjs.org/
+<p align="center">
+Built off the initial gatsby hello world starter
+https://www.gatsbyjs.org/
+</p>
 
-You can see the website live here: https://www.joegandy.co.uk/
+<p align="center">
+You can see the website live here<br>
+https://www.joegandy.co.uk/
+</p>
 
-Checkout the rest of my github, https://github.com/JoeGandy
+<p align="center">
+Checkout the rest of my github<br>
+https://github.com/JoeGandy
+</p>
