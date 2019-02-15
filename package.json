@@ -26,6 +26,8 @@
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-transformer-sharp": "^2.1.13",
     "node-sass": "^4.11.0",
+    "prismic-javascript": "^2.0.1",
+    "prismic-reactjs": "^0.3.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-helmet": "^5.2.0",
