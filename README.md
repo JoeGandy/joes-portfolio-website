@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-Built off the initial gatsby hello world starter
+Built off the initial gatsby hello world starter<br>
 https://www.gatsbyjs.org/
 </p>
 
