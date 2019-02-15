@@ -1,5 +1,5 @@
 import React from "react"
-import {FaGithub, FaFacebook, FaLinkedin, FaSteam} from 'react-icons/fa';
+import {FaGithub, FaFacebook, FaLinkedin, FaSteam, FaFileAlt} from 'react-icons/fa';
 import {Helmet} from "react-helmet";
 import Prismic from 'prismic-javascript';
 import PrismicConfig from '../prismic-configuration';
@@ -12,6 +12,7 @@ const FaComponent = {
     "FaGithub": FaGithub,
     "FaLinkedin": FaLinkedin,
     "FaSteam": FaSteam,
+    "FaFileAlt": FaFileAlt
 };
 
 export default class HomePage extends React.Component {
