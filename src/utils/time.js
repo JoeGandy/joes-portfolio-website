@@ -9,26 +9,32 @@ export function timeDifference(current, previous) {
     var elapsed = current - previous;
 
     if (elapsed < msPerMinute) {
-         return Math.round(elapsed/1000) + ' seconds ago';   
+        let plural = Math.round(elapsed / 1000) !== 1;
+         return Math.round(elapsed/1000) + ' sec' + (plural ? 's' : '') + ' ago';
     }
 
     else if (elapsed < msPerHour) {
-         return Math.round(elapsed/msPerMinute) + ' minutes ago';   
+            let plural = Math.round(elapsed / msPerMinute) !== 1;
+         return Math.round(elapsed/msPerMinute) + ' min' + (plural ? 's' : '') + ' ago';
     }
 
     else if (elapsed < msPerDay ) {
-         return Math.round(elapsed/msPerHour ) + ' hours ago';   
+        let plural = Math.round(elapsed / msPerHour) !== 1;
+         return Math.round(elapsed/msPerHour ) + ' hour' + (plural ? 's' : '') + ' ago';
     }
 
     else if (elapsed < msPerMonth) {
-        return Math.round(elapsed/msPerDay) + ' days ago';   
+        let plural = Math.round(elapsed / msPerDay) !== 1;
+        return Math.round(elapsed/msPerDay) + ' day' + (plural ? 's' : '') + ' ago';
     }
 
     else if (elapsed < msPerYear) {
-        return Math.round(elapsed/msPerMonth) + ' months ago';   
+        let plural = Math.round(elapsed / msPerMonth) !== 1;
+        return Math.round(elapsed/msPerMonth) + ' month' + (plural ? 's' : '') + ' ago';
     }
 
     else {
-        return Math.round(elapsed/msPerYear ) + ' years ago';   
+        let plural = Math.round(elapsed / msPerYear) !== 1;
+        return Math.round(elapsed/msPerYear ) + ' year' + (plural ? 's' : '') + ' ago';
     }
 }

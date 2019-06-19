@@ -26,17 +26,17 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-79262afe1a963ca9027b.js"
+    "url": "webpack-runtime-789e405eb041b803afc8.js"
   },
   {
-    "url": "app-3e74dc8f3769a3650f45.js"
+    "url": "app-f5862fca021cdd0f59a1.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-23ef13e090a58655c140.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-734b3186173bf2375140.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7553754a23f600ae0dfb749928b03714"
+    "revision": "961ed572031c9a200771b2f00ce2d1a9"
   },
   {
     "url": "manifest.json",
@@ -51,6 +51,7 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, workbox.strategies.cacheFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
 
