@@ -45,7 +45,7 @@ export default class HomePage extends React.Component {
       ).then(response => {
         this.setState({homePageData: response.results[0]});
       });
-      fetch('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=joegandy1&api_key=6900d6827e2c0d6248e54a385fe242b6&format=json')
+      fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=joegandy1&api_key=6900d6827e2c0d6248e54a385fe242b6&format=json')
         .then(response => response.json())
         .then(data => this.setState({tracks: data.recenttracks.track}));
 
