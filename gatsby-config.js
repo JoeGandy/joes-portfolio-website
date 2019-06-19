@@ -65,20 +65,20 @@ module.exports = {
 				}
 			}
 	    },
-		{
-			resolve: `gatsby-plugin-sharp`,
-			options: {
-				useMozJpeg: true,
-				stripMetadata: true,
-			},
-		},
-        `gatsby-plugin-sass`,
-        `gatsby-plugin-offline`,
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
-        `gatsby-plugin-netlify`,
-        `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-netlify-headers`,
-        `gatsby-plugin-robots-txt`
+  		{
+  			resolve: `gatsby-plugin-sharp`,
+  			options: {
+  				useMozJpeg: true,
+  				stripMetadata: true,
+  			},
+  		},
+      `gatsby-plugin-sass`,
+      `gatsby-plugin-offline`,
+      `gatsby-transformer-sharp`,
+      `gatsby-plugin-sharp`,
+      `gatsby-plugin-netlify`,
+      `gatsby-plugin-react-helmet`,
+      `gatsby-plugin-netlify-headers`,
+      `gatsby-plugin-robots-txt`
     ],
 }

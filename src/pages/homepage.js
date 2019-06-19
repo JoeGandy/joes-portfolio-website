@@ -3,6 +3,7 @@ import {FaGithub, FaFacebook, FaLinkedin, FaSteam, FaFileAlt, FaRssSquare, FaGit
 import {Helmet} from "react-helmet";
 import Prismic from 'prismic-javascript';
 import PrismicConfig from '../prismic-configuration';
+import timeDifference from '../utils/time';
 
 require('../scss/main.scss');
 
@@ -22,7 +23,8 @@ export default class HomePage extends React.Component {
         super(props);
 
         this.state = {
-            homePageData: null
+            homePageData: null,
+            tracks: []
         };
 
         //Query prismic and pull our homepage data.
@@ -33,9 +35,16 @@ export default class HomePage extends React.Component {
             ).then(response => {
                 this.setState({homePageData: response.results[0]})
             });
+            fetch('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=joegandy1&api_key=6900d6827e2c0d6248e54a385fe242b6&format=json')
+              .then(response => response.json())
+              .then(data => this.setState({tracks: data.recenttracks.track}));
+
         }).catch((e) => {
             console.error(`Cannot contact the API, check your prismic configuration:\n${e}`);
         });
+    }
+
+    componentDidMount() {
     }
 
     render() {
@@ -44,6 +53,8 @@ export default class HomePage extends React.Component {
         let prismic_title = data ? data.main_header[0].text : "Joe Gandy";
         let prismic_tagline = data ? data.tag_line[0].text : "Web Developer";
         let prismic_links = data ? data.main_links : [];
+        let tracks = this.state.tracks;
+        console.log(tracks);
 
         return <div className="_main_wrapper">
             <Helmet title={prismic_title + " - " + prismic_tagline}>
@@ -67,6 +78,22 @@ export default class HomePage extends React.Component {
                         </li>
                     })}
                 </ul>
+            </div>
+            <div className="_recent_tracks">
+                {tracks.map(function(track, i) {
+                    if(i > 5){
+                        return;
+                    }
+                    let now_playing = track['@attr'] && track['@attr']['nowplaying'];
+                    return <div className="_track" key={i}>
+                        <img src={ track.image[0]['#text'] } />
+                        <p className="_track_artist">{track.artist['#text']}</p> 
+                        <p className="_track_name">{track.name}</p>
+                        { now_playing ? 
+                            <p className='_now_playing'>Playing now</p> :
+                            <p className='_played'>{timeDifference(new Date(), track.date.uts)}</p>}
+                    </div>
+                })}
             </div>
         </div>
 
