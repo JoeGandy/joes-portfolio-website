@@ -113,4 +113,14 @@
   ._recent_tracks{
     display:none;
   }
+
+  ._icons{
+    width:100%;
+    flex-flow:row wrap;
+    justify-content: center;
+
+    li{
+      margin: 0 20px;
+    }
+  }
 }
