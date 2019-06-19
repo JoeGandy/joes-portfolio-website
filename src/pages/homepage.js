@@ -59,7 +59,7 @@ export default class HomePage extends React.Component {
     let data = this.state.homePageData ? this.state.homePageData.data : null;
     let prismic_title = data ? data.main_header[0].text : 'Joe Gandy';
     let prismic_tagline = data ? data.tag_line[0].text : 'Web Developer';
-    let prismic_links = data ? data.main_links : [];git 
+    let prismic_links = data ? data.main_links : [];
     let tracks = this.state.tracks;
 
     return <div className="_main_wrapper">

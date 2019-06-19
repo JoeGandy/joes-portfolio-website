@@ -89,17 +89,22 @@
       }
     }
 
+    & > ._track_artist,
+    & > ._track_name{
+      overflow: hidden;
+    }
+
     & > ._track_artist:after{
       content: ' - ';
       padding-right:5px;
     }
 
     & > ._play_status{
-      justify-self: right;
-      color:#999;
-      font-size:0.8em;
-      width: 100%;
-      text-align: right;
+      color: #999;
+      font-size: 0.8em;
+      display: flex;
+      flex-flow: row-reverse;
+      padding-left: 5px;
     }
   }
 }
