@@ -92,7 +92,7 @@ export default class HomePage extends React.Component {
         <div className={'_recent_tracks ' + (tracks.length > 0 ? 'load' : '')}>
           <h3>What I've been listening too</h3>
           {tracks.map(function(track, i) {
-            if (i > 5) {
+            if (i > 9) {
               return;
             }
             let now_playing = track['@attr'] && track['@attr']['nowplaying'];

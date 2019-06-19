@@ -39,67 +39,75 @@
   }
 }
 
-._recent_tracks{
-  position:absolute;
-  left:0;
-  top:0;
-  color:#333;
+._recent_tracks {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #333;
   font-family: "Rubik", sans-serif;
 
-  h3{
-    padding:10px 5px 5px 5px;
-    opacity:0.7;
-    color:#111;
-    text-align:center;
+  h3 {
+    padding: 10px 5px 5px 5px;
+    opacity: 0.7;
+    color: #111;
+    text-align: center;
   }
 
-  a{
+  & > a {
     text-decoration: none;
-    color:#333;
+    color: #333;
+    margin: 5px;
+    display: flex;
   }
 
-  ._track{
-    width:340px;
-    padding:5px;
-    display:flex;
-    font-size:0.7em;
+  @for $i from 1 through 5 {
+    & > a:nth-last-of-type(#{$i}) {
+      opacity: (1 - ((5 - $i) / 5)) - 0.1;
+    }
+  }
+
+  ._track {
+    width: 340px;
+    padding: 5px;
+    display: flex;
+    font-size: 0.7em;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+1,ededed+100 */
     background: #efecec; /* Old browsers */
     background: -moz-linear-gradient(top, #efecec 1%, #ededed 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #efecec 1%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #efecec 1%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
-    margin:5px;
-    box-shadow:0 0 3px rgba(0,0,0,0.3);
+    background: -webkit-linear-gradient(top, #efecec 1%, #ededed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #efecec 1%, #ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0); /* IE6-9 */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 
-    & > *{
+    & > * {
       justify-self: left;
       align-self: center;
       white-space: nowrap;
       text-overflow: ellipsis;
     }
 
-    & > ._image{
-      width:24px;
-      height:24px;
-      margin-right:5px;
-      img{
-        width:24px;
-        height:24px;
+    & > ._image {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+
+      img {
+        width: 24px;
+        height: 24px;
       }
     }
 
     & > ._track_artist,
-    & > ._track_name{
+    & > ._track_name {
       overflow: hidden;
     }
 
-    & > ._track_artist:after{
+    & > ._track_artist:after {
       content: ' - ';
-      padding-right:5px;
+      padding-right: 5px;
     }
 
-    & > ._play_status{
+    & > ._play_status {
       color: #999;
       font-size: 0.8em;
       display: flex;
@@ -109,17 +117,17 @@
   }
 }
 
-@media screen and (max-width:1000px){
-  ._recent_tracks{
-    display:none;
+@media screen and (max-width: 1000px) {
+  ._recent_tracks {
+    display: none;
   }
 
-  ._icons{
-    width:100%;
-    flex-flow:row wrap;
+  ._icons {
+    width: 100%;
+    flex-flow: row wrap;
     justify-content: center;
 
-    li{
+    li {
       margin: 0 20px;
     }
   }
