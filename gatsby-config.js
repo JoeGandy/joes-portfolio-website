@@ -6,6 +6,13 @@ module.exports = {
 	},
     plugins: [
 		{
+		  resolve: `gatsby-source-prismic`,
+		  options: {
+			repositoryName: `gandymainwebsite`,
+			accessToken: `MC5YUzlqTkJBQUFDVUF2ZVFz.77-9Myvvv73vv71OF--_ve-_ve-_vTcIf1vvv73vv73vv71aEe-_vWkn77-977-9TAYl77-9TRg8aw`
+		  },
+		}, 
+		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
 				trackingId: "UA-49984946-7"
