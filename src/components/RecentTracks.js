@@ -24,7 +24,7 @@ export default class RecentTracks extends React.Component {
         {tracks.map(function (track, i) {
           if (i > 9) return;
           let now_playing = track['@attr'] && track['@attr']['nowplaying'];
-          return <a key={i} href={track.url} target="_blank">
+          return <a key={i} href={track.url} rel="noopener" target="_blank">
             <div className="_track">
               <div className="_image">
                 <img src={track.image[0]['#text']} />
