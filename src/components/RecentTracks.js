@@ -5,9 +5,11 @@ export default class RecentTracks extends React.Component {
   constructor(props) {
     super(props);
 
-    fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=joegandy1&api_key=6900d6827e2c0d6248e54a385fe242b6&format=json')
-      .then(response => response.json())
-      .then(data => this.setState({tracks: data.recenttracks.track}));
+    if(typeof(fetch) !== "undefined"){
+      fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=joegandy1&api_key=6900d6827e2c0d6248e54a385fe242b6&format=json')
+        .then(response => response.json())
+        .then(data => this.setState({tracks: data.recenttracks.track}));
+    }
 
     this.state = {
       tracks: []
