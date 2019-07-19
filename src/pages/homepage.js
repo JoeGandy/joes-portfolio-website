@@ -47,7 +47,7 @@ export default class HomePage extends React.Component {
       query={query}
       render={data => (
         <div className="_main_wrapper">
-          <Helmet title={'tmp'}>
+          <Helmet title={'Joe Gandy // Developer'}>
             <meta charSet="utf-8" />
             <meta name="description"
               content="Joe Gandy a web developer from derby specialising in backend apis, drupal with front end work with react and gatsby" />
